@@ -21,10 +21,10 @@ void AShooterGameSession::RegisterServer()
 	FOnlineSessionSettings Settings;
 
 	Settings.bIsDedicated = true;
-	Settings.bIsLANMatch = false;
+	Settings.bIsLANMatch = true;
 	Settings.bAllowJoinInProgress = true;
 	Settings.bShouldAdvertise = true;
-	Settings.NumPublicConnections = 64;
+	Settings.NumPublicConnections = 16;
 	Settings.bUsesPresence = true;
 
 	UE_LOG(LogTemp, Log, TEXT("Initialized settings"));
