@@ -16,5 +16,4 @@ class MULTIPLAYERSHOOTER_API AShooterGameSession : public AGameSession
 
 	virtual void RegisterServer() override;
 	
-	
 };
