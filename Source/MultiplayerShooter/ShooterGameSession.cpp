@@ -24,7 +24,7 @@ void AShooterGameSession::RegisterServer()
 	Settings.bIsLANMatch = false;
 	Settings.bAllowJoinInProgress = true;
 	Settings.bShouldAdvertise = true;
-	Settings.NumPublicConnections = 64;
+	Settings.NumPublicConnections = 32;
 	Settings.bUsesPresence = true;
 
 	UE_LOG(LogTemp, Log, TEXT("Initialized settings"));
